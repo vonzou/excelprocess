@@ -107,8 +107,8 @@ public class ExcelContactCount extends Configured implements Tool {
 
 	public static void main(String[] args) throws Exception {
 		String[] args0 = { 
-				"C:\\Users\\zousong\\Desktop\\hadoop-core-1.2.1.src\\phone.xls",
-				"C:\\Users\\zousong\\Desktop\\repository"
+				"D:\\temp\\phone.xls",
+				"D:\\temp"
 			};
 		int ec = ToolRunner.run(new Configuration(), new ExcelContactCount(), args0);
 		System.exit(ec);
